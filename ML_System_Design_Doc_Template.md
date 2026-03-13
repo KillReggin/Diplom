@@ -169,7 +169,7 @@
 flowchart TD
   A[Видео виноградника] --> B[Frame extraction: извлечение кадров из видео]
   B --> C[Resize кадров до 640x640]
-  C --> D{YOLOv8 Detection}
+  C --> D{YOLOv8}
 
   D -->|виноград найден| E[Bounding boxes гроздей]
   D -->|нет винограда| F[Кадр отбрасывается]
